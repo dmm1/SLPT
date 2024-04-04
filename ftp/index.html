@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FTP Server Landing Page</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Welcome to Your FTP Server</h1>
+  <div class="stats">
+    <div class="stat">
+      <h2>Users Online</h2>
+      <p id="usersOnline">100</p>
+    </div>
+    <div class="stat">
+      <h2>Total Files</h2>
+      <p id="totalFiles">1000</p>
+    </div>
+    <div class="stat">
+      <h2>Storage Used</h2>
+      <p id="storageUsed">50%</p>
+    </div>
+  </div>
+  <button id="connectButton" onclick="connectClicked()">Connect</button>
+  <div id="overlay"></div>
+  <div id="fireworks"></div>
+  <div class="hero">
+    <h2>Nerdy Hero Section</h2>
+    <p id="typewriter"></p>
+  </div>
+  <div class="ftp-status">
+    <h2>FTP Status</h2>
+    <p>Server: <span class="online">Online</span></p>
+    <p>Connection Speed: 1 Gbps</p>
+    <p>Security: SSL/TLS</p>
+  </div>
+</div>
+<div class="buttons">
+<a class="github-button" href="https://github.com/dmm1" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Follow @dmm1 on GitHub">Follow @dmm1</a>
+<a class="github-button" href="https://github.com/dmm1/SLPT" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" aria-label="Star dmm1/SLPT on GitHub">Star</a>
+<a class="github-button" href="https://github.com/dmm1/SLPT/fork" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork dmm1/SLPT on GitHub">Fork</a>
+<a class="github-button" href="https://github.com/dmm1/SLPT/archive/HEAD.zip" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-download" data-size="large" aria-label="Download dmm1/SLPT on GitHub">Download</a>
+</div>
+<div class="rain-container">
+  <div class="rain-text">You are connected</div>
+</div>
+<script src="script.js"></script>
+<!-- This script tag includes an external JavaScript file from the GitHub Buttons library. -->
+<!-- The script is loaded asynchronously and deferred, meaning it will not block the rendering of the page. -->
+<!-- The source of the script is "https://buttons.github.io/buttons.js". -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>
