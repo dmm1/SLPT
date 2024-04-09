@@ -10,3 +10,5 @@ Contributions are welcome! If you have any ideas or improvements, feel free to s
 
 This project is licensed under the [MIT License](LICENSE).
 
+
+[![⏫ Sync Status from Private Source ](https://github.com/dmm1/designbeat/actions/workflows/copyftp.yml/badge.svg)](https://github.com/dmm1/designbeat/actions/workflows/copyftp.yml)
